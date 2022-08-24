@@ -26,6 +26,7 @@ const About = () => {
                             <Link className='text-decoration-none text-white' to={file} target="_blank" download>DOWNLOAD MY CV</Link>
                         </button>
                     </Col>
+                    <hr className='text-black w-100 my-5' />
                 </Row>
             </Container>
         </div>

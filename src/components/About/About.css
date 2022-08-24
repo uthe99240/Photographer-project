@@ -10,11 +10,11 @@
 
 .btnFile{
     position: realtive;
-    background-color: rgb(84, 78, 78);
+    background-color: rgb(157, 32, 52);
 }
 
 .btnFile:hover {
     transform: scale(1.1);
     transition: transform 1s ease-in-out;
-    background-color: black;
+    background-color: rgb(120, 10, 28);
 }
