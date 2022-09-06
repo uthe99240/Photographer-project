@@ -19,7 +19,7 @@ const Home = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                         <p className='pt-5 text-secondary text-gradient'>FIND WITH ME</p>
                         <div className='mt-4'>
-                            <a href="https://www.facebook.com" target="_blank"><span className='text-secondary text-gradient bg-dark p-3 rounded-3 me-3'><big><FiFacebook /></big></span></a>
+                            <a href="https://www.facebook.com" target="_blank"><span className='text-secondary text-gradient bg-dark p-3 rounded-3 me-3'><big ><FiFacebook /></big></span></a>
                             <a href="https://www.instragram.com" target="_blank"><span className='text-secondary text-gradient bg-dark p-3 rounded-3 me-3'><big><BsInstagram /></big></span></a>
                             <a href="https://www.linkedin.com" target="_blank"><span className='text-secondary text-gradient bg-dark p-3 rounded-3 me-3'><big><FiLinkedin /></big></span></a>
 

@@ -19,8 +19,9 @@ const About = () => {
                     </Col>
                     <Col className='col-lg-8 text-start p-5'>
                         <p className='text-danger text-left pt-3'><span><small>VISIT MY PORTFOLIO & HIRE ME</small></span></p>
-                        <h1 className='fw-bolder text-white'>About Me</h1>
-                        <p className='text-secondary fs-5 fw-semibold'>I completed my BSC in CSE from Daffodil International University with CGPA 3.93. Now I Am working with Web Development. I comfortable with HTML, CSS, JavaScript, ES6, React, Bootstrap, Tailwind, React Router, Require Auth, Firebase.</p>
+                        <h1 className='fw-bolder text-secondary'>About Me</h1>
+                        <p className='text-secondary fs-5 fw-semibold text-justify'>I completed my BSC in CSE from Daffodil International University with CGPA 3.93. 
+                        Now I Am working with Web Development. I comfortable with HTML, CSS, JavaScript, ES6, React, Bootstrap, Tailwind, React Router, Require Auth, Firebase.</p>
                         <p className='text-secondary fs-5 fw-semibold'>Tools : Figma , Vs Code , Photopea , Netlify , Git, Github, HeroIcon, Font Awesome, Free pic , imgbb etc.</p>
                         <button className='shadow-lg border-0 py-3 px-5 rounded-3 btnFile'>
                             <Link className='text-decoration-none text-white' to={file} target="_blank" download>DOWNLOAD MY CV</Link>
