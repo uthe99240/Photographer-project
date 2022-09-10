@@ -2,3 +2,13 @@ h1{
     font-size: 50px;
 }
 
+.aFile{
+    position: realtive;
+    
+}
+
+.aFile:hover {
+    transform: scale(1.3);
+    transition: transform 1s ease-in-out;
+}
+

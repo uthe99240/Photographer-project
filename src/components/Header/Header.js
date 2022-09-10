@@ -2,13 +2,14 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
         <div>
             <Navbar collapseOnSelect expand="lg" bg="black" variant="dark">
                 <Container className='fixed-top bg-black py-2'>
-                    <Navbar.Brand href="/">
+                    <Navbar.Brand as={Link} to="/">
                         <img
                             alt=""
                             src="/s.png"
@@ -17,7 +18,7 @@ const Header = () => {
                             className="d-inline-block align-top"
                         />{' '}
                     </Navbar.Brand>
-                    <Navbar.Brand className='fw-semibold text-danger fst-italic' href="/" >Sumaiya Sanaya</Navbar.Brand>
+                    <Navbar.Brand className='fw-semibold text-danger fst-italic' as={Link} to="/" >Sumaiya Sanaya</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav ">
                         <Nav className="me-auto">

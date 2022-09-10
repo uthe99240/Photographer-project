@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Wedding Ceremony",
+        "price": "3000",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg?cs=srgb&dl=pexels-viresh-studio-1444442.jpg&fm=jpg"
+    },
+    {
+        "id": 2,
+        "name": "Bride To Be",
+        "price": "1000",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://images.pexels.com/photos/1371800/pexels-photo-1371800.jpeg?cs=srgb&dl=pexels-aleksandr-neplokhov-1371800.jpg&fm=jpg"
+    },
+    {
+        "id": 3,
+        "name": "Welcome Home",
+        "price": "1500",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://images.pexels.com/photos/5764889/pexels-photo-5764889.jpeg?cs=srgb&dl=pexels-nicole-michalou-5764889.jpg&fm=jpg"
+    },
+    {
+        "id": 4,
+        "name": "Baby Shower",
+        "price": "1800",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://images.pexels.com/photos/587741/pexels-photo-587741.jpeg?cs=srgb&dl=pexels-fu-zhichao-587741.jpg&fm=jpg"
+    },
+    {
+        "id": 5,
+        "name": "Anniversary",
+        "price": "10000",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+        "img": "https://images.pexels.com/photos/2072175/pexels-photo-2072175.jpeg?cs=srgb&dl=pexels-george-dolgikh-2072175.jpg&fm=jpg"
+    },
+    {
+        "id": 6,
+        "name": "Birthday",
+        "price": "3000",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "img": "https://images.pexels.com/photos/1543762/pexels-photo-1543762.jpeg?cs=srgb&dl=pexels-craig-adderley-1543762.jpg&fm=jpg"
+    }
+]
