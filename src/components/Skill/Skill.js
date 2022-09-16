@@ -13,7 +13,7 @@ import image8 from '../../images/tailwind-edit.jpg';
 
 const Skill = () => {
     return (
-        <div className='bg-dark'>
+        <div id='skill' className='bg-dark'>
             <Container >
                 <p className='text-danger'><span><small>VISIT MY SKILL & HIRE ME</small></span></p>
                 <h1 className='fw-bolder text-secondary mb-5'>My Skill</h1>
