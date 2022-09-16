@@ -13,7 +13,7 @@ const Services = () => {
     }, [])
 
     return (
-        <div className='bg-dark'>
+        <div id='services' className='bg-dark'>
             <Container>
                 <h1 className='fw-bolder text-secondary mb-4'>My Services</h1>
                 <Row lg={3} md={2} sm={1} xs={1}>
