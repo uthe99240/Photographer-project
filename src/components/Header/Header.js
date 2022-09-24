@@ -40,6 +40,7 @@ const Header = () => {
                             <Nav.Link className='text-white me-3 my-1 px-4 btn btn-dark' href="home#skill">Skill</Nav.Link>
                             <Nav.Link className='text-white me-3 my-1 px-4 btn btn-dark' href="home#services">Services</Nav.Link>
                             <Nav.Link className='text-white me-3 my-1 px-4 btn btn-dark' href="home#footer">Footer</Nav.Link>
+                            <Nav.Link className='text-white me-3 my-1 px-4 btn btn-dark' as={Link} to='/blog'>Blog</Nav.Link>
                             <Nav.Link className='text-white me-3 my-1 px-4 btn btn-dark' as={Link} to='/about'>About</Nav.Link>
                             {
                                 user ?
