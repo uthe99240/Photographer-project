@@ -22,7 +22,7 @@ const Signup = () => {
         navigate('/login');
     }
 
-    const handleSignup = event => {
+    const handleSubmit = event => {
         event.preventDefault();
         const name = event.target.name.value;
         const email = event.target.email.value;
@@ -35,7 +35,7 @@ const Signup = () => {
         <div className='pt-3'>
             <div className='signup-form'>
                 <h2 className='text-danger'  style={{ textAlign: 'center' }}>Please Signup</h2>
-                <form onSubmit={handleSignup} className='w-50 mx-auto pt-2'>
+                <form onSubmit={handleSubmit} className='w-50 mx-auto pt-2'>
                 <input type="text" name="name" id="" placeholder='Your Name' />
                     <input type="email" name="email" id="" placeholder='Email Address' required />
                     <input type="password" name="password" id="" placeholder='Password' required />

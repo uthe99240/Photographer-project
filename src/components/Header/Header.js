@@ -36,10 +36,11 @@ const Header = () => {
                         <Nav>
                             <Nav.Link className='text-white me-3 my-1 px-4 btn btn-dark' href="home">Home</Nav.Link>
                             <Nav.Link className='text-white me-3 my-1 px-4 btn btn-dark' href="home#banner">Banner</Nav.Link>
-                            <Nav.Link className='text-white me-3 my-1 px-4 btn btn-dark' href="home#about">About</Nav.Link>
+                            <Nav.Link className='text-white me-3 my-1 px-4 btn btn-dark' href="home#portfolio">Portfolio</Nav.Link>
                             <Nav.Link className='text-white me-3 my-1 px-4 btn btn-dark' href="home#skill">Skill</Nav.Link>
-                            <Nav.Link className='text-white me-3 my-1 px-4 btn btn-dark' href="#services">Services</Nav.Link>
+                            <Nav.Link className='text-white me-3 my-1 px-4 btn btn-dark' href="home#services">Services</Nav.Link>
                             <Nav.Link className='text-white me-3 my-1 px-4 btn btn-dark' href="home#footer">Footer</Nav.Link>
+                            <Nav.Link className='text-white me-3 my-1 px-4 btn btn-dark' as={Link} to='/about'>About</Nav.Link>
                             {
                                 user ?
                                     <button className='btn btn-link bg-danger text-white text-decoration-none' onClick={handleSignOut}>sign out</button>

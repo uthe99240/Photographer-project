@@ -1,0 +1,24 @@
+.photo-frame {
+    position: realtive;
+    overflow: hidden;
+}
+
+.photo-frame:hover img {
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+
+.btnFile{
+    position: realtive;
+    background-color: rgb(157, 32, 52);
+}
+
+.btnFile:hover {
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+    background-color: rgb(120, 10, 28);
+}
+
+.clsjustify{
+    text-align: justify;
+}

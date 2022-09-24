@@ -10,6 +10,7 @@ const Service = ({ service }) => {
     const navigateToServiceDetail = id => {
         navigate(`/checkout`);
     }
+
     return (
         <div>
             <Col className=' p-4 bg-light rounded-3 mb-3'>
@@ -18,7 +19,7 @@ const Service = ({ service }) => {
                     <h4 className='text-black text-start ps-2'> <span className='fw-bolder'> Name:</span> {name}</h4>
                     <h4 className='text-black text-start ps-2'> <span className='fw-bolder'> Price :  $</span>{price}</h4>
                     <p className='text-black text-start px-2'><span className='fw-bolder'>Description :</span>  <small>{description}</small></p>
-                    <Link to='/checkout'>
+                    <Link to='/hiring'>
                         <button className='btn btn-dark w-100'>Hiring Me </button>
                     </Link>
 

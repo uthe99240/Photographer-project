@@ -9,7 +9,7 @@ import file from '../../../src/files/cvFaisalAhmedWithProject.pdf';
 
 const About = () => {
     return (
-        <div id='about' className='bg-dark'>
+        <div id='portfolio' className='bg-dark'>
             <Container >
                 <Row className='py-5' lg={2} md={1} sm={1} xs={1}>
                     <Col className='col-lg-4 shadow-lg p-4 bg-dark rounded-3'>
