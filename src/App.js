@@ -11,6 +11,7 @@ import RequireAuth from './components/RequireAuth/RequireAuth';
 import Hiring from './components/Hiring/Hiring';
 import AboutMe from './components/AboutMe/AboutMe';
 import Blog from './components/Blog/Blog';
+import NotFound from './components/NotFound/NotFound';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
             <Hiring></Hiring>
           </RequireAuth>
         }></Route>
+        <Route path='*' element={<NotFound />}></Route>
       </Routes>
       <Footer></Footer>
     </div>
